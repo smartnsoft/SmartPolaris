@@ -1,24 +1,26 @@
 #Android generated
 bin
 gen
+lint.xml
 
 #Eclipse
-.project
-.classpath
+.metadata
 .settings
+.checkstyle
 
 #IntelliJ IDEA
 .idea
 *.iml
+*.ipr
+*.iws
 classes
+gen-external-apklibs
 
-#Command line
-build.xml
-proguard-project.txt
+#Maven
+target
+release.properties
+pom.xml.*
 
-#Mac specific
+#Other
 .DS_Store
-
-#User specific
-local.properties
-sample/src/com/cyrilmottier/android/polarissample/util/LocalConfig.java
+tmp
